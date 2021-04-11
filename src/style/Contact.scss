@@ -1,0 +1,114 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300;400&display=swap");
+
+.contact-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  width: 100vw;
+  height: 100%;
+  background-color: black;
+  font-family: "Josefin Sans", sans-serif;
+  .container-card-contact {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: space-between;
+    border-radius: 10px;
+    padding: 80px;
+    .container-photo-contact {
+      display: flex;
+      flex-flow: column;
+      justify-content: center;
+      align-items: center;
+      img {
+        border-radius: 50%;
+        height: 200px;
+        margin-bottom: 40px;
+      }
+      h1 {
+        font-weight: 300;
+        letter-spacing: 15px;
+        font-size: 30px;
+        text-align: center;
+      }
+    }
+    .container-text-contact {
+      margin-left: 30px;
+      display: flex;
+      flex-flow: column;
+      justify-content: center;
+      .contact-me-h1 {
+        background: rgb(255, 130, 130);
+        background: -moz-linear-gradient(
+          left,
+          rgba(255, 130, 130, 1) 0%,
+          rgba(225, 120, 237, 1) 100%
+        );
+        background: -webkit-linear-gradient(
+          left,
+          rgba(255, 130, 130, 1) 0%,
+          rgba(225, 120, 237, 1) 100%
+        );
+        background: linear-gradient(
+          to right,
+          rgba(255, 130, 130, 1) 0%,
+          rgba(225, 120, 237, 1) 100%
+        );
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff8282', endColorstr='#e178ed',GradientType=1 );
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+      }
+      h1 {
+        font-weight: 300;
+        letter-spacing: 15px;
+        font-size: 30px;
+        text-align: left;
+      }
+      h3 {
+        font-weight: 300;
+        letter-spacing: 2px;
+        font-size: 17px;
+        text-align: left;
+      }
+      .contact-container-icons {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 40px;
+        a {
+          color: white;
+          text-decoration: none;
+          font-size: 17px;
+          letter-spacing: 5px;
+          display: flex;
+          align-items: center;
+          margin-right: 20px;
+          span {
+            margin-left: 10px;
+          }
+          &:hover {
+            background: rgb(255, 130, 130);
+            background: -moz-linear-gradient(
+              left,
+              rgba(255, 130, 130, 1) 0%,
+              rgba(225, 120, 237, 1) 100%
+            );
+            background: -webkit-linear-gradient(
+              left,
+              rgba(255, 130, 130, 1) 0%,
+              rgba(225, 120, 237, 1) 100%
+            );
+            background: linear-gradient(
+              to right,
+              rgba(255, 130, 130, 1) 0%,
+              rgba(225, 120, 237, 1) 100%
+            );
+            filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff8282', endColorstr='#e178ed',GradientType=1 );
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+          }
+        }
+      }
+    }
+  }
+}

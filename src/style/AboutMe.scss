@@ -1,0 +1,186 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300;400&display=swap");
+
+.about-me-container {
+  display: flex;
+  align-items: center;
+  flex-flow: column;
+  justify-content: space-between;
+  width: 100vw;
+  font-family: "Josefin Sans", sans-serif;
+
+  .container-particles {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    overflow-x: hidden;
+
+    // height: 100vh;
+    .particles {
+      height: 100vh;
+      width: 100vw;
+      background: -webkit-linear-gradient(
+        bottom,
+        rgba(255, 130, 130, 1) 0%,
+        rgba(225, 120, 237, 1) 100%
+      );
+    }
+    .container-name {
+      margin-top: -48%;
+      position: absolute;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-flow: column;
+      width: 100vw;
+      height: 100vh;
+      svg {
+        width: 20%;
+        margin-bottom: 5%;
+      }
+      h1 {
+        font-family: "Josefin Sans", sans-serif;
+        font-weight: 300;
+        font-size: 74px;
+        margin: 0;
+        letter-spacing: 13px;
+      }
+      h3 {
+        color: white;
+        font-family: "Josefin Sans", sans-serif;
+        letter-spacing: 5px;
+        font-weight: 400;
+        font-size: 35px;
+      }
+    }
+  }
+  .container-image-text {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+    width: 100%;
+
+    h1 {
+      font-family: "Josefin Sans", sans-serif;
+      font-weight: 300;
+      font-size: 60px;
+      color: black;
+      margin-bottom: 5%;
+      letter-spacing: 13px;
+      text-align: center;
+    }
+    span {
+      background: rgb(255, 130, 130);
+      background: -moz-linear-gradient(
+        left,
+        rgba(255, 130, 130, 1) 0%,
+        rgba(225, 120, 237, 1) 100%
+      );
+      background: -webkit-linear-gradient(
+        left,
+        rgba(255, 130, 130, 1) 0%,
+        rgba(225, 120, 237, 1) 100%
+      );
+      background: linear-gradient(
+        to right,
+        rgba(255, 130, 130, 1) 0%,
+        rgba(225, 120, 237, 1) 100%
+      );
+      filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff8282', endColorstr='#e178ed',GradientType=1 );
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+    .container-text-about-me {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      img {
+        width: 50%;
+        margin-right: -5%;
+        border-radius: 0 10px 10px 0;
+      }
+      .color-text-container {
+        background-color: black;
+        width: 70%;
+        padding: 40px;
+        border-radius: 10px 0 0 10px;
+        p {
+          font-family: "Josefin Sans", sans-serif;
+          color: white;
+          font-size: 20px;
+          font-weight: 300;
+          letter-spacing: 5px;
+        }
+      }
+      .btn-container {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        .btn {
+          position: relative;
+          display: inline-block;
+          width: 277px;
+          height: 50px;
+          font-weight: bold;
+          line-height: 65px;
+          text-align: center;
+          text-transform: uppercase;
+          background-color: transparent;
+          cursor: pointer;
+          text-decoration: none;
+          font-family: "Josefin Sans", sans-serif;
+          font-weight: 600;
+          font-size: 20px;
+          letter-spacing: 3px;
+        }
+
+        .btn svg {
+          position: absolute;
+          top: 0;
+          left: 0;
+        }
+
+        .btn svg rect {
+          //stroke: #EC0033;
+          stroke-width: 4;
+          stroke-dasharray: 353, 0;
+          stroke-dashoffset: 0;
+          -webkit-transition: all 600ms ease;
+          transition: all 600ms ease;
+        }
+
+        .btn span {
+          background: rgb(255, 130, 130);
+          background: -moz-linear-gradient(
+            left,
+            rgba(255, 130, 130, 1) 0%,
+            rgba(225, 120, 237, 1) 100%
+          );
+          background: -webkit-linear-gradient(
+            left,
+            rgba(255, 130, 130, 1) 0%,
+            rgba(225, 120, 237, 1) 100%
+          );
+          background: linear-gradient(
+            to right,
+            rgba(255, 130, 130, 1) 0%,
+            rgba(225, 120, 237, 1) 100%
+          );
+          filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff8282', endColorstr='#e178ed',GradientType=1 );
+
+          -webkit-background-clip: text;
+          -webkit-text-fill-color: transparent;
+        }
+
+        .btn:hover svg rect {
+          stroke-width: 4;
+          stroke-dasharray: 196, 543;
+          stroke-dashoffset: 437;
+        }
+      }
+    }
+  }
+}

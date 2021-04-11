@@ -1,0 +1,40 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300;400&display=swap");
+
+.nav-bar-container {
+  width: 100vw;
+  background-color: black;
+  height: 65px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  position: fixed;
+  z-index: 100;
+
+  a {
+    color: white;
+    text-decoration: none;
+    margin-right: 5%;
+    font-family: "Josefin Sans", sans-serif;
+    &:hover {
+      background: rgb(255, 130, 130);
+      background: -moz-linear-gradient(
+        left,
+        rgba(255, 130, 130, 1) 0%,
+        rgba(225, 120, 237, 1) 100%
+      );
+      background: -webkit-linear-gradient(
+        left,
+        rgba(255, 130, 130, 1) 0%,
+        rgba(225, 120, 237, 1) 100%
+      );
+      background: linear-gradient(
+        to right,
+        rgba(255, 130, 130, 1) 0%,
+        rgba(225, 120, 237, 1) 100%
+      );
+      filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff8282', endColorstr='#e178ed',GradientType=1 );
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+  }
+}
