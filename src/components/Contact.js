@@ -12,7 +12,7 @@ export default function Contact() {
                 </div>
                 <div className='container-text-contact'>
                     <span className='contact-me-h1'><h1>CONTACT ME</h1></span>
-                    <h3>Feel free to contact me in my social medias accounts. I would love to get to know you!</h3>
+                    <h3>Feel free to contact me on my social medias accounts. I would love to get to know you!</h3>
                     <div className='contact-container-icons'>
                         <div>
                             <a rel="noreferrer" target="_blank" className='contact-page-container' href='https://www.linkedin.com/in/giorgia-borgmann/'>

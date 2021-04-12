@@ -47,16 +47,17 @@ export default function AboutMe() {
           <img src={photo} alt='computer' />
           <div className="color-text-container">
             <p>
-              Hi :) I'm a full-stack developer passionate about technology,
-              design, and creating intuitive, dynamic user experiences.
+              Hi :) I'm a full-stack developer passionate about utilizing technology and
+              design to create an intuitive, dynamic user experience.
           </p>
             <p>
-              Well-organized, problem solver, independent worker with high
-              attention to detail. A fan of traveling, cooking, and outdoor
+              I'm a well-organized problem solver, and an independent worker with high
+              attention to detail. I'm also a fan of traveling, cooking, and outdoor
               activities.
+
           </p>
             <p>
-              Interested in the entire full-stack spectrum focused on frontend and
+              I'm interested in the entire full-stack spectrum, focused on front-end as well as
             working on ambitious projects with positive people.
             </p>
             <div className='btn-container'>
