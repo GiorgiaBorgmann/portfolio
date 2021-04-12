@@ -187,8 +187,11 @@
 }
 
 @media only screen and (max-width: 600px) {
+  .about-me-container{
+    margin-bottom: 10%;
+  }
   .container-name {
-    margin-top: -160% !important;
+    margin-top: -170% !important;
     justify-content: flex-start;
     height: 100% !important;
     overflow-y: hidden;
@@ -212,6 +215,7 @@
     align-items: center;
     flex-flow: column;
     width: 100%;
+    margin-top: 10% !important;
     h1 {
       
       font-size: 50px !important;
