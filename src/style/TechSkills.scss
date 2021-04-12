@@ -11,6 +11,7 @@
     font-weight: 300;
     font-size: 60px;
     margin-top: 80px;
+    letter-spacing: 13px;
   }
   span {
     background: rgb(255, 130, 130);
@@ -46,8 +47,8 @@
       justify-content: flex-start;
       align-items: center;
       border-radius: 10px;
-      margin: 20px 0px;
-      padding-top: 4%;
+      margin: 10px px;
+      padding: 4% 1% 2% 1%;
       h2 {
         font-family: "Josefin Sans", sans-serif;
         font-weight: 400;
@@ -155,5 +156,11 @@
         background-position: 0 0;
       }
     }
+  }
+}
+@media only screen and (max-width: 600px) {
+  h1 {
+    font-size: 50px !important;
+    letter-spacing: 2px !important;
   }
 }

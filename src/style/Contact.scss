@@ -112,3 +112,25 @@
     }
   }
 }
+
+@media only screen and (max-width: 600px) {
+  .contact-container {
+    .container-card-contact {
+      .container-photo-contact {
+        img {
+          display: none;
+        }
+        h1 {
+          display: none;
+        }
+      }
+      .container-text-contact {
+        .contact-container-icons {
+          a {
+            font-size: 15px;
+          }
+        }
+      }
+    }
+  }
+}
