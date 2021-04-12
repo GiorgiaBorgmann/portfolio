@@ -13,7 +13,8 @@
     flex-flow: column;
     align-items: center;
     justify-content: center;
-    overflow-x: hidden;
+    overflow: hidden;
+    
 
     // height: 100vh;
     .particles {
@@ -190,6 +191,7 @@
     margin-top: -160% !important;
     justify-content: flex-start;
     height: 100% !important;
+    overflow-y: hidden;
     
     svg {
       width: 40% !important;
@@ -204,7 +206,7 @@
     }
   }
   .container-image-text {
-    height: 100vh;
+    height: 100% !important;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -214,7 +216,7 @@
       
       font-size: 50px !important;
       margin-bottom: 20% !important;
-      margin-top: 80% !important;
+      
       
     }
     }
