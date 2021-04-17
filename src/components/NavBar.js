@@ -5,9 +5,6 @@ import { Link } from "react-scroll";
 export default function NavBar() {
   return (
     <div className="nav-bar-container">
-      <Link to="home" spy={true} smooth={true} offset={-60} duration={1000}>
-        HOME
-      </Link>
       <Link to="aboutMe" spy={true} smooth={true} offset={-60} duration={1000}>
         ABOUT ME
       </Link>
