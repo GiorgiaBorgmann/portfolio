@@ -2,7 +2,6 @@ import React from "react";
 import "../style/AboutMe.scss";
 import photo from '../style/background-text.png'
 import Particles from 'react-particles-js'
-import { Link } from "react-scroll";
 
 export default function AboutMe() {
   return (
@@ -60,28 +59,6 @@ export default function AboutMe() {
               I'm interested in the entire full-stack spectrum, focused on front-end as well as
             working on ambitious projects with positive people.
             </p>
-            <div className='btn-container'>
-              <Link class="btn" to="projects" spy={true} smooth={true} offset={-60}>
-                <svg width="277" height="62">
-                  <defs>
-                    <linearGradient id="grad1">
-                      <stop offset="0%" stop-color="#FF8282" />
-                      <stop offset="100%" stop-color="#E178ED" />
-                    </linearGradient>
-                  </defs>
-                  <rect
-                    x="5"
-                    y="5"
-                    rx="25"
-                    fill="none"
-                    stroke="url(#grad1)"
-                    width="266"
-                    height="50"
-                  ></rect>
-                </svg>
-                <span>See projects</span>
-              </Link>
-            </div>
           </div>
         </div>
       </div>
